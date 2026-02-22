@@ -102,7 +102,7 @@ DELETE /api/Language/delete/{id} -> ADMIN
 
 ### Topic
 
-GET /api/Topic -> ADMIN/USER 
+GET /api/Topic -> ADMIN/USER  
 GET /api/Topic/{id} -> ADMIN/USER 
 POST /api/Topic/create -> ADMIN 
 PUT /api/Topic/update/{id} -> ADMIN 
