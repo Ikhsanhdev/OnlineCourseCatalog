@@ -44,7 +44,7 @@ Deleted data is excluded using Global Query Filter.
 ## 🚀 How to Run
 
 1. Clone repository
-2. Update connection string in appsettings.json
+2. Update connection string in `appsettings.json`
 3. Navigate to the project directory
 4. Run migration:
 
