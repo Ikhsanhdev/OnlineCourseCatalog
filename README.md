@@ -76,6 +76,7 @@ Role: ADMIN
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ### Auth
+
 GET /api/Auth -> ADMIN 
 GET /api/Auth/{id} -> ADMIN 
 POST /api/Auth/login -> PUBLIC
@@ -84,6 +85,7 @@ PUT /api/Auth/update/{id} -> ADMIN
 DELETE /api/Auth/delete/{id} -> ADMIN 
 
 ### Courses
+
 GET /api/Courses -> PUBLIC
 GET /api/Courses/{id} -> PUBLIC
 POST /api/Courses/create -> ADMIN 
@@ -91,6 +93,7 @@ PUT /api/Courses/update/{id} -> ADMIN
 DELETE /api/Courses/delete/{id} -> ADMIN 
 
 ### Language
+
 GET /api/Language -> ADMIN/USER 
 GET /api/Language/{id} -> ADMIN/USER 
 POST /api/Language/create -> ADMIN 
@@ -98,6 +101,7 @@ PUT /api/Language/update/{id} -> ADMIN
 DELETE /api/Language/delete/{id} -> ADMIN 
 
 ### Topic
+
 GET /api/Topic -> ADMIN/USER 
 GET /api/Topic/{id} -> ADMIN/USER 
 POST /api/Topic/create -> ADMIN 
@@ -119,6 +123,7 @@ DELETE /api/Topic/delete/{id} -> ADMIN
 Postman Collection sudah ada pada respository ini
 
 ### Note
+
 - Untuk Request Body pada Method POST dan PUT ada pada masing2 endpoint yg ada di collection postman
 - Untuk endpoint yg bukan PUBLIC harus menggunakan bearer token dari jwt yg telah digenerate pada saat login
 
