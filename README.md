@@ -44,17 +44,18 @@ Deleted data is excluded using Global Query Filter.
 ## 🚀 How to Run
 
 1. Clone repository
-2. Update connection string in `appsettings.json`
+2. Install .NET 8.0 & PostgreSql
 3. Navigate to the project directory
-4. Run migration:
+4. Update connection string in `appsettings.json`
+5. Run migration:
 
    `dotnet ef database update`
 
-5. Run project:
+6. Run project:
 
    `dotnet watch`
 
-6. Open Swagger (if enabled):
+7. Open Swagger (if enabled):
 
    http://localhost:{port}/swagger/index.html   
    http://localhost:{port}/{endpoint}
