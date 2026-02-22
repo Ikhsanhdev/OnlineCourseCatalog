@@ -48,15 +48,15 @@ Deleted data is excluded using Global Query Filter.
 3. Navigate to the project directory
 4. Run migration:
 
-   dotnet ef database update
+   `dotnet ef database update`
 
 5. Run project:
 
-   dotnet watch
+   `dotnet watch`
 
 6. Open Swagger (if enabled):
 
-   http://localhost:{port}/swagger/index.html
+   http://localhost:{port}/swagger/index.html   
    http://localhost:{port}/{endpoint}
 
 ---
